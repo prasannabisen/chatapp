@@ -13,6 +13,7 @@ io.on('connection',function(socket){
     console.log('socket id '+socket.id)
     socket.on('chat',function(data){
         console.log('message:-'+ data.message)
+        io.sockets.emit('chat1',data)
     })
 })
 
