@@ -1,5 +1,5 @@
 #id1{
-    position: absolute;
+    position: sticky;
     bottom: 10vh;
     left:40vw;
 }
